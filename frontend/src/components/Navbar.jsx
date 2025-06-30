@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {assets, menuLinks} from '../assets/assets'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import Login from './Login'
+// import Login from './Login'
 import { useAppContext } from '../context/AppContext'
 import toast from 'react-hot-toast'
 
