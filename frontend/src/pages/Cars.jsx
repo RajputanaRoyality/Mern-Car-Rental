@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Title from '../components/Title'
 import { assets, dummyCarData } from '../assets/assets'
-import CarCard from '../components/carCard'
+import CarCard from '../components/CarCard.jsx'
 import { useSearchParams } from 'react-router-dom'
 import { useAppContext } from '../context/AppContext'
 
